@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Hello! I'm Mukul Dharashivkar, I'm a Computer Engineer from India. I love making good looking websites and currently I am working as a freelancer. I have done my Bachelors of Engineering from PES Modern College Of Engineering, Pune - IN.</p>
+        <p>I have been writing code daily for half a year. I am looking for new opportunities to implement and increase my skills in software development and web development. I want to learn Django in future :-)</p>
+        <p>I'm interested in web frameworks and everything related to Python, I always have been interested in how websites are created. I am currently pursuing 100 Days of Code - The Complete Python Pro Bootcamp for 2022 course.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
